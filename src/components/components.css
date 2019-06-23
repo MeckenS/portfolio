@@ -1,0 +1,167 @@
+/*
+Nav Styles
+*/
+
+.bg-light {
+  background-color: #2c3e50!important;
+  margin-bottom: 3rem!important;
+}
+
+/*anchor links*/
+
+a.nav-link {
+  color: white!important;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-right: 30px!important;
+}
+
+a.nav-link:hover {
+  color: #AB7C94!important;
+}
+
+/*mobile menu*/
+
+.navbar-toggler-icon {
+  background-image: url(./images/mobilemenuicon.svg)!important;
+}
+
+.navbar-toggler {
+  border: none!important;
+}
+
+.name {
+  font-size: 24px;
+  margin: 12px 0px 0px 13px!important;
+  font-weight: 700;
+  color: white!important;
+}
+
+@media only screen and (max-width: 330px) {
+  .name {
+    display: none;
+  }
+}
+
+/*
+Project Styles
+*/
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.project-card {
+  width: 18rem;
+  margin: 2rem;
+}
+
+.purple-button {
+  background-color: #AB7C94!important;
+  border-color: #AB7C94!important;
+  font-size: 14px!important;
+}
+
+.purple-button:hover {
+  background-color: #2c3e50!important;
+  border-color: #2c3e50!important;
+}
+
+/*
+Skills Styles
+*/
+
+.skills-container {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.skills-container > h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: #2c3e50;
+}
+
+.skills-icon-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+/*
+About Styles
+*/
+
+.profile-container {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #2c3e50;
+  margin-bottom: 30px;
+
+}
+
+.udacity-logo {
+  margin: 0px 15px 22px 15px;
+}
+
+.about-message {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+/*
+ContactHero Styles
+*/
+
+.contact-hero-container {
+  text-align: center;
+}
+
+.contact-hero-container h1 {
+  margin-bottom: 20px;
+}
+
+.contact-message {
+  max-width: 300px;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.navy-blue-button {
+  background-color: #2c3e50!important;
+  border-color: #2c3e50!important;
+  font-size: 14px!important;
+}
+
+.navy-blue-button:hover {
+  background-color: #AB7C94!important;
+  border-color: #AB7C94!important;
+}
+
+/*
+Footer Styles
+*/
+
+.footer {
+  background-color: #2c3e50;
+  text-align: center;
+  padding: 25px 0;
+}
+
+.footer p {
+  margin: 5px 15px 0px 15px;
+  font-weight: 700;
+  color: white;
+}
